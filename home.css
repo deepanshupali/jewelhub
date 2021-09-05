@@ -1,0 +1,151 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Roboto Condensed', sans-serif;}
+body{
+background-color: #00FF00;
+background-image: linear-gradient(315deg, #FFD700 0%, #e8dbfc 74%);
+}
+a{
+   color: black;
+   text-decoration: none;
+}
+
+nav{
+	width: 100%;
+	height:15vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    position: absolute;
+    background-color: rgb(0,0,0,0.1);	
+
+}
+.logo a{
+	font-size: 2rem;
+	text transform: uppercase;
+
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 15px;
+ 
+}
+.menu ul li a{
+	text-transform: capitalize;
+	font-size: 1.5rem;
+    color: rgb(0,0,0,0.9);
+    font-family: "Times New Roman", Times, serif;
+}
+#nav,#nav1:hover,#nav2:hover,#nav3:hover,#nav4:hover ,#nav5:hover,#nav6:hover{
+	border-top: 2px solid #5dade2;
+	border-bottom:2px solid #5dade2;
+}
+.contact a{
+	background-color: #d465ef;
+	padding: 12px 26px;
+    font-style: 14px;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+}
+.contact a:hover{
+
+	background: linear-gradient(to bottom,#615cfd 0%,#d465ef 100%);
+}
+#img{
+
+	width: 100%; 
+                height: 800px; 
+                object-fit: contain; 
+	
+}
+.box{
+	position: absolute;
+}
+.text{
+	position: absolute;
+	z-index: 999;
+	margin-left: 850px;
+	top:1%;
+	text-align: centre;
+	width: 4%;
+
+    font-family: Arial,sans-serif;
+    width: 30%;
+	text-transform: capitalize;
+	padding-left: 10px;
+}
+.text a{
+	color: rgb(255,223,0);
+}
+
+.centerdiv{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 0px;
+}
+#f1,#f2,#f3,#f4,#f5{
+	height: 100px;
+	width: 100px;
+	background-color: #f5f6fa;
+	border-radius: 50px;
+	text-align: center;
+	margin: 10px;
+	box-shadow: 1px 4px 2px 2px #dcdde1;
+	line-height: 110px;
+
+}
+a i{
+	transition: all 0,3s linear;
+}
+a:hover i{
+	transform:scale(1.4);
+}
+
+}
+.fa-instagram{
+	color:red; 
+}
+.fa-youtube{
+	color: #e84118;
+}
+.fa-linkedin{
+	color: #0097e6;
+}
+.fa-twitter{
+	color: #0097e6;
+}
+.fa-facebook{
+	color:purple;
+}
+.hr{
+  border-top: 1px solid  grey;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+.image{
+	width: 400px;
+	height:500px;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
